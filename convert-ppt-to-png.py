@@ -43,5 +43,5 @@ if __name__ == "__main__":
         sys.exit(1)
 
     ppt_file = sys.argv[1]
-    output_dir = "/ppt"  # Output folder as requested
+    output_dir = "/ppt-png"  # Output folder as requested
     convert_ppt_to_png(ppt_file, output_dir)
